@@ -121,7 +121,7 @@ void main()
     {
         int len = sizeof(cli);
         //连接套接字  通过c实现服务器与客户端之间的通信
-        int c = accept(listen_fd, (struct sockaddr*)&cli, &len);
+        int c = accept(sockfd, (struct sockaddr*)&cli, &len);
         if(-1 == c)
             return;
         char buff[256] = {0};
