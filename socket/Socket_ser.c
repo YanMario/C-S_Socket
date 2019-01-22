@@ -83,7 +83,7 @@
  *                             ETIMEDOUT 连接超时
  */
 
-#if 1
+#if 0
 
 #include <stdio.h>
 #include <stdlib.h>
